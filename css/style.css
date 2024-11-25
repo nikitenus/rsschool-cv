@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to left, blanchedalmond, white);
+}
+
+.wrapper {
+    max-width: 1440px;
+    background-color: bisque;
+    margin: 0px auto;
+    padding: 10px 0;
+}
+
+.title {
+    position: relative;
+}
+
+.title__avatar {
+    position: absolute;
+    height: 200px;
+    left: 20px;
+    top: 0;
+    border: solid 2px chocolate;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.main__container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.code__text {
+    background-color: aliceblue;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.contacts__items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
