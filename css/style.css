@@ -184,3 +184,25 @@ body {
 .footer__link:hover {
   border-bottom-color: currentColor;
 }
+
+.menu {
+  margin-bottom: 25px;
+}
+
+.menu__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 25px;
+  list-style: none;
+}
+
+.menu__link {
+  color: var(--color-link);
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid currentColor;
+}
