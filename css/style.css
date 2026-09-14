@@ -20,3 +20,32 @@ body {
   background-color: #fdfdfd;
   box-shadow: 0 4px 10px #b3a6b4;
 }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0 30px;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.title__role {
+  font-size: 1.15rem;
+  color: #7a6b7b;
+}
+
+.title__avatar {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px #2b212c;
+}
