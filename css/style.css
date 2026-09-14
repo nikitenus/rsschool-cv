@@ -49,3 +49,21 @@ body {
   border-radius: 50%;
   box-shadow: 0 4px 10px #2b212c;
 }
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.header__subtitle {
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-bottom: 2px solid #dfcdc7;
+}
+
+.summary__text {
+  text-align: justify;
+}
