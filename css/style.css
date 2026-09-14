@@ -100,3 +100,14 @@ body {
 .courses__link:hover {
   text-decoration: none;
 }
+
+.code__text {
+  overflow-x: auto;
+  padding: 16px;
+  background-color: #f3edee;
+  border-left: 4px solid #dfcdc7;
+  border-radius: 6px;
+  font-family: "Consolas", "Menlo", monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
