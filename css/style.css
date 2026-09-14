@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  background-color: #f8f6f8;
+  color: #2b212c;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 10px #b3a6b4;
+}
