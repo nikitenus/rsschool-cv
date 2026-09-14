@@ -206,3 +206,24 @@ body {
 .menu__link:hover {
   border-bottom: 1px solid currentColor;
 }
+
+.work__items {
+  padding-left: 22px;
+}
+
+.work__item {
+  margin-bottom: 14px;
+}
+
+.work__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.work__link {
+  color: var(--color-link);
+}
+
+.work__description {
+  font-size: 1rem;
+}

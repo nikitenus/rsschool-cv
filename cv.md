@@ -25,6 +25,17 @@ Web developer with 1.5 years of experience. I build SPA and SSR web applications
 	return s.split('').map((el, i) => el.toUpperCase() + Array(i + 1).join(el.toLowerCase())).join('-');
 }`
 
+## Work Experience
+
+### Kinopoisk / TMDB clone — training project
+
+Movie catalog app built with React and the TMDB API.
+[https://kinopoisk-tmdb-kappa.vercel.app/](https://kinopoisk-tmdb-kappa.vercel.app/)
+
+### RemarkGram — social network
+
+Platform for publishing posts and photos with likes, comments and follows. (in progress)
+
 ## Courses & Education
 
 - [HTMLacademy](https://htmlacademy.ru/study)
