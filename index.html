@@ -34,16 +34,14 @@
                     <li class="skills__item">RTK</li>
                 </ul>
             </section>
-            <section class="code">
+            <section class="code" id="code">
                 <h2 class="header__subtitle">Code examples</h2>
-                <div class="container">
-                    <p class="code__text">
-                        function accum(s) {<br>
-                        &nbsp;return s.split('')<br>&nbsp;.map((el, i) -&gt; el<br>&nbsp;.toUpperCase() + Array(i +
-                        1)<br>&nbsp;.join(el.toLowerCase()))<br>&nbsp;.join('-');br
-                        }
-                    </p>
-                </div>
+                <pre class="code__text"><code>function accum(s) {
+  return s
+    .split('')
+    .map((el, i) =&gt; el.toUpperCase() + Array(i + 1).join(el.toLowerCase()))
+    .join('-');
+}</code></pre>
             </section>
             <section class="courses">
                 <h2 class="header__subtitle">Courses</h2>
