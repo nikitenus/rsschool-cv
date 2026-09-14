@@ -1,3 +1,14 @@
+:root {
+  --color-bg: #e8f0e6;
+  --color-text: #223028;
+  --color-surface: #fcfefb;
+  --color-shadow: #aabcaa;
+  --color-muted: #5f7164;
+  --color-accent: #bcd6b6;
+  --color-link: #2f7a4c;
+  --color-code-bg: #dfeedf;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +17,8 @@
 
 body {
   padding: 15px;
-  background-color: #f8f6f8;
-  color: #2b212c;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: "Cormorant Garamond", serif;
   font-size: 19px;
   line-height: 1.8;
@@ -17,8 +28,8 @@ body {
   max-width: 1000px;
   margin: 20px auto;
   padding: 30px;
-  background-color: #fdfdfd;
-  box-shadow: 0 4px 10px #b3a6b4;
+  background-color: var(--color-surface);
+  box-shadow: 0 4px 10px var(--color-shadow);
 }
 
 .title {
@@ -38,7 +49,7 @@ body {
 
 .title__role {
   font-size: 1.15rem;
-  color: #7a6b7b;
+  color: var(--color-muted);
 }
 
 .title__avatar {
@@ -47,7 +58,7 @@ body {
   margin-top: 10px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 4px 10px #2b212c;
+  box-shadow: 0 4px 10px var(--color-text);
 }
 
 .main__container {
@@ -61,7 +72,7 @@ body {
   padding-bottom: 6px;
   font-size: 1.6rem;
   font-weight: 600;
-  border-bottom: 2px solid #dfcdc7;
+  border-bottom: 2px solid var(--color-accent);
 }
 
 .summary__text {
@@ -78,7 +89,7 @@ body {
 
 .skills__item {
   padding: 4px 14px;
-  background-color: #dfcdc7;
+  background-color: var(--color-accent);
   border-radius: 20px;
   font-size: 1rem;
   line-height: 1.4;
@@ -94,7 +105,7 @@ body {
 }
 
 .courses__link {
-  color: #7a4b52;
+  color: var(--color-link);
 }
 
 .courses__link:hover {
@@ -104,8 +115,8 @@ body {
 .code__text {
   overflow-x: auto;
   padding: 16px;
-  background-color: #f3edee;
-  border-left: 4px solid #dfcdc7;
+  background-color: var(--color-code-bg);
+  border-left: 4px solid var(--color-accent);
   border-radius: 6px;
   font-family: "Consolas", "Menlo", monospace;
   font-size: 0.95rem;
@@ -130,11 +141,11 @@ body {
 }
 
 .contacts__label {
-  color: #7a6b7b;
+  color: var(--color-muted);
 }
 
 .contacts__link {
-  color: #7a4b52;
+  color: var(--color-link);
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
@@ -146,7 +157,7 @@ body {
 .footer {
   margin-top: 30px;
   padding-top: 20px;
-  border-top: 2px solid #dfcdc7;
+  border-top: 2px solid var(--color-accent);
 }
 
 .footer__meta {
@@ -161,11 +172,11 @@ body {
 }
 
 .footer__date {
-  color: #7a6b7b;
+  color: var(--color-muted);
 }
 
 .footer__link {
-  color: #7a4b52;
+  color: var(--color-link);
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
