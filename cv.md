@@ -9,15 +9,15 @@ Web developer with 1.5 years of experience. I build SPA and SSR web applications
 
 ## Skills
 
-* HTML
-* CSS
-* JS
-* TS
-* React
-* Next.js
-* RTK
-* TDD
-* GIT
+- HTML
+- CSS
+- JS
+- TS
+- React
+- Next.js
+- RTK
+- TDD
+- GIT
 
 ## Code examples
 
@@ -25,12 +25,13 @@ Web developer with 1.5 years of experience. I build SPA and SSR web applications
 	return s.split('').map((el, i) => el.toUpperCase() + Array(i + 1).join(el.toLowerCase())).join('-');
 }`
 
-## Courses 
+## Courses & Education
 
-* [HTMLacademy](https://htmlacademy.ru/study)
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+- [HTMLacademy](https://htmlacademy.ru/study)
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+- Smolensk Branch of MPEI — Informatics and Computer Engineering
 
 ## Languages
 
-* Russian - native
-* English - B1
+- Russian - native
+- English - B1
