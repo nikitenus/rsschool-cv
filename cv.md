@@ -5,17 +5,19 @@ e-mail: nikitenuss@mail.ru
 
 ## Summary
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est incidunt enim distinctio reprehenderit. Perspiciatis veritatis, ipsum, excepturi necessitatibus quasi molestiae sequi incidunt provident consequuntur voluptate similique sint architecto ipsam repellendus!
+Web developer with 1.5 years of experience. I build SPA and SSR web applications with React, TypeScript, Next.js 15+ and Redux Toolkit. I use AI tools to improve and speed up the development process. I'm growing towards Full-Stack — backend logic, databases and DevOps.
 
 ## Skills
 
 * HTML
 * CSS
-* JS/TS
+* JS
+* TS
+* React
+* Next.js
+* RTK
 * TDD
 * GIT
-* React
-* RTK
 
 ## Code examples
 
