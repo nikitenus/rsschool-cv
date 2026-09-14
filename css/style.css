@@ -67,3 +67,36 @@ body {
 .summary__text {
   text-align: justify;
 }
+
+.skills__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.skills__item {
+  padding: 4px 14px;
+  background-color: #dfcdc7;
+  border-radius: 20px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.languages__items,
+.courses__items {
+  padding-left: 22px;
+}
+
+.courses__item {
+  margin-bottom: 6px;
+}
+
+.courses__link {
+  color: #7a4b52;
+}
+
+.courses__link:hover {
+  text-decoration: none;
+}
