@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="title">
+        <h1 class="header__title">Vlad Nikitenkov</h1>
+        <p class="title__role">Frontend Developer</p>
+        <img class="title__avatar" src="images/avatar.jpeg" alt="Vlad Nikitenkov" />
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item"><a class="menu__link" href="#about">About me</a></li>
+            <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+            <li class="menu__item"><a class="menu__link" href="#code">Code example</a></li>
+            <li class="menu__item"><a class="menu__link" href="#work">Work Experience</a></li>
+            <li class="menu__item"><a class="menu__link" href="#courses">Courses &amp; Education</a></li>
+            <li class="menu__item"><a class="menu__link" href="#languages">Languages</a></li>
+            <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main__container">
+          <section class="summary" id="about">
+            <h2 class="header__subtitle">Brief Self-Introduction</h2>
+            <p class="summary__text">
+              Web developer with 1.5 years of experience. I build SPA and SSR web applications with React, TypeScript,
+              Next.js 15+ and Redux Toolkit. I use AI tools to improve and speed up the development process. I'm growing
+              towards Full-Stack — backend logic, databases and DevOps.
+            </p>
+          </section>
+          <section class="skills" id="skills">
+            <h2 class="header__subtitle">Skills</h2>
+            <ul class="skills__items">
+              <li class="skills__item">HTML &amp; CSS</li>
+              <li class="skills__item">JS</li>
+              <li class="skills__item">TS</li>
+              <li class="skills__item">React</li>
+              <li class="skills__item">Next.js</li>
+              <li class="skills__item">RTK</li>
+              <li class="skills__item">TDD</li>
+              <li class="skills__item">GIT</li>
+            </ul>
+          </section>
+          <section class="code" id="code">
+            <h2 class="header__subtitle">Code examples</h2>
+            <pre class="code__text"><code>function accum(s) {
+  return s
+    .split('')
+    .map((el, i) =&gt; el.toUpperCase() + Array(i + 1).join(el.toLowerCase()))
+    .join('-');
+}</code></pre>
+          </section>
+          <section class="work" id="work">
+            <h2 class="header__subtitle">Work Experience</h2>
+            <ul class="work__items">
+              <li class="work__item">
+                <p class="work__title">
+                  <a class="work__link" href="https://kinopoisk-tmdb-kappa.vercel.app/">
+                    Kinopoisk / TMDB clone
+                  </a>
+                  — training project
+                </p>
+                <p class="work__description">Movie catalog app built with React and the TMDB API.</p>
+              </li>
+              <li class="work__item">
+                <p class="work__title">
+                  <a class="work__link" href="https://github.com/Inctargam/remark-gram">RemarkGram</a>
+                  — social network
+                </p>
+                <p class="work__description">
+                  Platform for publishing posts and photos with likes, comments and follows. (in progress)
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="courses" id="courses">
+            <h2 class="header__subtitle">Courses &amp; Education</h2>
+            <ul class="courses__items">
+              <li class="courses__item">
+                <a class="courses__link" href="https://rs.school/courses/javascript">JS / Front-end Course</a>
+                (in progress)
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://htmlacademy.ru/study">HTMLacademy</a>
+              </li>
+              <li class="courses__item">Smolensk Branch of MPEI — Informatics and Computer Engineering</li>
+            </ul>
+          </section>
+          <section class="languages" id="languages">
+            <h2 class="header__subtitle">Languages</h2>
+            <ul class="languages__items">
+              <li class="languages__item">Russian / native</li>
+              <li class="languages__item">English / B1</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="main__container">
+          <section class="contacts" id="contacts">
+            <h2 class="header__subtitle">Contact information</h2>
+            <ul class="contacts__items">
+              <li class="contacts__item">
+                <span class="contacts__label">phone:</span>
+                <a class="contacts__link" href="tel:+79190410297">+7&nbsp;919&nbsp;041-02-97</a>
+              </li>
+              <li class="contacts__item">
+                <span class="contacts__label">email:</span>
+                <a class="contacts__link" href="mailto:nikitenuss@mail.ru">nikitenuss@mail.ru</a>
+              </li>
+              <li class="contacts__item">
+                <span class="contacts__label">telegram:</span>
+                <a class="contacts__link" href="https://t.me/nikitenus">@nikitenus</a>
+              </li>
+            </ul>
+          </section>
+          <div class="footer__meta">
+            <a class="footer__logo" href="https://rs.school/courses/javascript">
+              <img src="images/rs-school-logo.svg" alt="RS School" width="70" height="70" />
+            </a>
+            <p class="footer__date">September 2026</p>
+            <a class="footer__link" href="https://github.com/nikitenus">My GitHub profile</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
